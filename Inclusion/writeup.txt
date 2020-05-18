@@ -1,0 +1,6 @@
+- Port enum pake nmap, dapet http sama ssh open.
+- File inclusion /etc/passwd, dapet username:password buat ssh
+- ssh, dapet flag user
+- jalanin sudo -l buat check priv atau bisa pake linpeas
+- pake command socat, pake IP dari ifconfig -> tun0
+- dapet sudo, ke dir root, dapet flag rootnya
