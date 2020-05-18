@@ -108,6 +108,7 @@
   </p>
   
   Change the "JD" letter to "SG" (Solomon Grundy) and we got the Admin e-mail! It's **SG@anthem.com**.
+  <br>
   
 ## Spot The Flags
 
@@ -136,12 +137,73 @@
   </p>
   
 + **What is flag 4?**
-http://10.10.130.57/archive/a-cheers-to-our-it-department/
-  We can find the flag on the "A cheers to our IT deparment" article's source-code! It's **THM{AN0TH3R_M3TA}**.
+
+  We can find the flag on the "A cheers to our IT deparment" (http://10.10.130.57/archive/a-cheers-to-our-it-department/) article's source-code! It's **THM{AN0TH3R_M3TA}**.
   
   <p align="center">
   <img src="./images/flag4.png" />
   </p>
+  <br>
   
+## Final Stage
+
++ **Let's figure out the username and password to log in to the box.(The box is not on a domain)**
+
+  We already have the username and the peassword from the previous task.
+  
+  ```
+  username: SG
+  password: UmbracoIsTheBest!
+  ```
+  
++ **Gain initial access to the machine, what is the contents of user.txt?**
+
+  Now we connect to the RDP to **10.10.183.65:3389** by using the credential above.
+  
+  <p align="center">
+  <img src="./images/rdp.png" />
+  </p>
+  
+  Boom! We got connected to the RDP. Now we open the **user.txt** file and see the content. 
+  
+  <p align="center">
+  <img src="./images/user.png" />
+  </p>
+  
+  We got the flag! **THM{N00T_NO0T}**.
+  
++ **Can we spot the admin password?**
+
+  First, we must enable the "View hidden file" option first. Then we search some directory to find the "Hidden file" that contain the admin password. There's a hidden directory called "backup"!.
+  
+  <p align="center">
+  <img src="./images/backup.png" />
+  </p>
+  
+  Go into that dir and open the "restore.txt" file! but we can't because of the permissions.
+  
+  <p align="center">
+  <img src="./images/permission.png" />
+  </p>
+  
+  We can open that file by changing the permissions because we got permissions to change everything (we're the owner of that file).
+  
+  <p align="center">
+  <img src="./images/changeperm.png" />
+  </p>
+  
+  Now we try to open the "restore.txt" file again! And... We got the admin password!. It's **ChangeMeBaby1MoreTime**
+  
+  <p align="center">
+  <img src="./images/adminpassword.png" />
+  </p>
+  
++ **Escalate your privileges to root, what is the contents of root.txt?**
+
+  Since we already have the admin password, we go to the Admin directory in the C:\Users\Administrator. And then we go to his Desktop and open the "root.txt" file. Boom! We got the admin's flag! **THM{Y0U_4R3_1337}**.
+  
+  <p align="center">
+  <img src="./images/flagadmin.png" />
+  </p>
   
   
