@@ -97,5 +97,11 @@
   ![4]
   
   And.. We got the Administrator name! (the poem autor), which is **Solomon Grundy**
-
+  
+  
+  
+[1]:./images/robots.png
+[2]:./images/homepage.png
+[3]:./images/search.png
+[4]:./images/poem.png
 
