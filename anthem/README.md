@@ -114,7 +114,7 @@
 
 + **What is flag 1?**
 
-  We should check the source-code of each page before going to anything else. On the "We are hiring" article (http://10.10.130.57/archive/we-are-hiring/), we can find the flag at the meta content from the source-code. It's **THM{L0L_WH0_US3S_M3T4}**.
+  We should check the source-code of each page before going to anything else. On the ["We are hiring" article](http://10.10.130.57/archive/we-are-hiring/), we can find the flag at the meta content from the source-code. It's **THM{L0L_WH0_US3S_M3T4}**.
   
   <p align="center">
   <img src="./images/flag1.png" />
@@ -138,7 +138,7 @@
   
 + **What is flag 4?**
 
-  We can find the flag on the "A cheers to our IT deparment" (http://10.10.130.57/archive/a-cheers-to-our-it-department/) article's source-code! It's **THM{AN0TH3R_M3TA}**.
+  We can find the flag on the ["A cheers to our IT deparment" article](http://10.10.130.57/archive/a-cheers-to-our-it-department/) article's source-code! It's **THM{AN0TH3R_M3TA}**.
   
   <p align="center">
   <img src="./images/flag4.png" />
