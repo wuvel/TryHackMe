@@ -61,19 +61,25 @@
   
   We can check the robots.txt file on the web server.
   
-  ![1]
+  <p align="center">
+  <img src="./images/robots.png" />
+  </p>
   
   we got the "possible password" on the robots file, which is **UmbracoIsTheBest!**.
 
 + **What CMS is the website using?**
   
-  ![1]
+  <p align="center">
+  <img src="./images/robots.png" />
+  </p>
  
   We can check the robots.txt file and we can see there's a directory called **/umbraco/** on the Disallow part, so this web server use umbraco CMS.
 
 + **What is the domain of the website?**
   
-  ![2]
+  <p align="center">
+  <img src="./images/homepage.png" />
+  </p>
   
   As we can see on the homepage, the server use **anthem.com** as the domain.
 
@@ -81,11 +87,15 @@
 
   First, we must check all the pages that exist on the server.  There is an articled called "A cheers to our IT department". There is a poem on the content that belongs to him (the Admin). 
   
-  ![3]
+  <p align="center">
+  <img src="./images/poem.png" />
+  </p>
   
   Let's search it up on the search engine should we?
   
-  ![4]
+  <p align="center">
+  <img src="./images/search.png" />
+  </p>
   
   And.. We got the Administrator name! (the poem autor), which is **Solomon Grundy**.
  
@@ -93,7 +103,9 @@
 
   There is an article called "We are hiring" and the appliers must send the CV to JD@anthem.com. 
 
-  ![5]
+  <p align="center">
+  <img src="./images/hiring.png" />
+  </p>
   
   Change the "JD" letter to "SG" (Solomon Grundy) and we got the Admin e-mail! It's **SG@anthem.com**.
   
@@ -103,34 +115,33 @@
 
   We should check the source-code of each page before going to anything else. On the "We are hiring" article (http://10.10.130.57/archive/we-are-hiring/), we can find the flag at the meta content from the source-code. It's **THM{L0L_WH0_US3S_M3T4}**.
   
-  ![6]
+  <p align="center">
+  <img src="./images/flag1.png" />
+  </p>
   
 + **What is flag 2?**
 
   We also find the flag on the "Search" menu's source-code! It's **THM{G!T_G00D}**.
   
-  ![7]
+  <p align="center">
+  <img src="./images/flag2.png" />
+  </p>
   
 + **What is flag 3?**
 
   We can find the flag on the "Author" menu's source-code that we can find on the bottom page on the article! It's **THM{L0L_WH0_D15}**.
   
-  ![8]
+  <p align="center">
+  <img src="./images/flag3.png" />
+  </p>
   
 + **What is flag 4?**
 http://10.10.130.57/archive/a-cheers-to-our-it-department/
   We can find the flag on the "A cheers to our IT deparment" article's source-code! It's **THM{AN0TH3R_M3TA}**.
   
-  ![9]
+  <p align="center">
+  <img src="./images/flag4.png" />
+  </p>
   
   
   
-[1]:./images/robots.png
-[2]:./images/homepage.png
-[3]:./images/poem.png
-[4]:./images/search.png
-[5]:./images/hiring.png
-[6]:./images/flag1.png
-[7]:./images/flag2.png
-[8]:./images/flag3.png
-[9]:./images/flag4.png
