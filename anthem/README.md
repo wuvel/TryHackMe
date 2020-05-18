@@ -64,7 +64,16 @@
   ![1]
   
   ```
-  
+  UmbracoIsTheBest!
+
+  # Use for all search robots
+  User-agent: *
+
+  # Define the directories not to crawl
+  Disallow: /bin/
+  Disallow: /config/
+  Disallow: /umbraco/
+  Disallow: /umbraco_client/
   ```
   we got the "possible password" on the robots file, which is **UmbracoIsTheBest!**.
 
@@ -73,6 +82,10 @@
   ![1]
   
   ```
+  Disallow: /bin/
+  Disallow: /config/
+  Disallow: /umbraco/
+  Disallow: /umbraco_client/
   ```
   
   We can check the robots.txt file and we can see there's a directory called **/umbraco/** on the Disallow part, so this web server use umbraco CMS.
@@ -80,9 +93,6 @@
 + **What is the domain of the website?**
   
   ![2]
-  
-  ```
-  ```
   
   As we can see on the homepage, the server use **anthem.com** as the domain.
 
