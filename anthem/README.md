@@ -87,12 +87,50 @@
   
   ![4]
   
-  And.. We got the Administrator name! (the poem autor), which is **Solomon Grundy**
+  And.. We got the Administrator name! (the poem autor), which is **Solomon Grundy**.
+ 
++ **Can we find find the email address of the administrator?**
+
+  There is an article called "We are hiring" and the appliers must send the CV to JD@anthem.com. 
+
+  ![5]
+  
+  Change the "JD" letter to "SG" (Solomon Grundy) and we got the Admin e-mail! It's **SG@anthem.com**.
+  
+## Spot The Flags
+
++ **What is flag 1?**
+
+  We should check the source-code of each page before going to anything else. On the "We are hiring" article (http://10.10.130.57/archive/we-are-hiring/), we can find the flag at the meta content from the source-code. It's **THM{L0L_WH0_US3S_M3T4}**.
+  
+  ![6]
+  
++ **What is flag 2?**
+
+  We also find the flag on the "Search" menu's source-code! It's **THM{G!T_G00D}**.
+  
+  ![7]
+  
++ **What is flag 3?**
+
+  We can find the flag on the "Author" menu's source-code that we can find on the bottom page on the article! It's **THM{L0L_WH0_D15}**.
+  
+  ![8]
+  
++ **What is flag 4?**
+http://10.10.130.57/archive/a-cheers-to-our-it-department/
+  We can find the flag on the "A cheers to our IT deparment" article's source-code! It's **THM{AN0TH3R_M3TA}**.
+  
+  ![9]
   
   
   
 [1]:./images/robots.png
 [2]:./images/homepage.png
-[3]:./images/search.png
-[4]:./images/poem.png
-
+[3]:./images/poem.png
+[4]:./images/search.png
+[5]:./images/hiring.png
+[6]:./images/flag1.png
+[7]:./images/flag2.png
+[8]:./images/flag3.png
+[9]:./images/flag4.png
