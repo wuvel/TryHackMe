@@ -1,0 +1,2 @@
+After we get the reverse shell and netcat it, we must change the bash first because its unstable by typing: python -c "import pty; pty.spawn('/bin/bash')"
+Press Enter, then we export the term (so we can clear, etc) by typing: export TERM=xterm
