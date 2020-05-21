@@ -1,4 +1,4 @@
-# TryHackMe Write-Up
+# TryHackMe Writeup
 
 [TryHackMe](https://tryhackme.com/) is an online platform for learning and teaching cybersecurity, which is beginner-friendly and versatile in different topics. 
 
