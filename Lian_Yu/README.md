@@ -1,9 +1,3 @@
-/island/
-I wasn't Expecting You at this Moment. I will meet you there
-
-You should find a way to Lian_Yu as we are planed. The Code Word is:
-vigilante
-
 ```
 gobuster dir -u 10.10.131.104 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt 
 
@@ -23,6 +17,15 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 /island (Status: 301)
 /server-status (Status: 403)
 Progress: 143798 / 220561 (65.20%)
+```
+
+```
+/island/
+
+I wasn't Expecting You at this Moment. I will meet you there
+
+You should find a way to Lian_Yu as we are planed. The Code Word is:
+vigilante
 ```
 
 
