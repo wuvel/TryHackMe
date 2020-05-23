@@ -17,3 +17,6 @@ Room Name   | Topics    | Difficulty    | Description
 [Hydra](https://tryhackme.com/room/anonymous) | hydra, bruteforce | Easy | Learn how to brute-force authentications services such as SSH and HTTP (POST).
 [dogcat](https://tryhackme.com/room/dogcat) | php, privesc, lfi, docker | Medium | I made a website where you can look at pictures of dogs and/or cats!
 [Learn Linux](https://tryhackme.com/room/zthlinux) | linux, beginner, ZTH, new | Easy | A guided room designed to teach you the Linux basics!
+[Lian_Yu](https://tryhackme.com/room/lianyu) | challenge, gobuster, Steganography, priv-esc | Easy | A beginner level security challenge
+
+
