@@ -1,0 +1,40 @@
+Shiba1
+```
+shiba1@10.10.223.206
+shiba1
+```
+
+Shiba2
+```
+su shiba2
+pinguftw
+```
+
+Shiba3
+```
+su shiba3
+happynootnoises
+```
+
+Shiba4
+```
+su shiba4
+test1234
+```
+
+Ending
+```
+find / -user <insert-username-here> -type f 2>>/dev/null #cari file kepunyaan masing2 user
+dapet di /var/log/test1234 punya shiba2
+
+su shiba2
+cat /var/log/test1234 -> nootsofast
+
+su nootnoot
+nootsofast
+
+sudo -l
+
+sudo cat /root/root.txt
+REDACTED~~
+```
