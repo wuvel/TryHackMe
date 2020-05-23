@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat May 23 23:09:51 2020
+Invocation: foremost Queen's_Gambit.png -T Queens 
+Output directory: /home/wuvel/Wuvel/CTF/TryHackMe/Lian_Yu/ftp/output_Sat_May_23_23_09_51_2020
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: Queen's_Gambit.png
+Start: Sat May 23 23:09:51 2020
+Length: 537 KB (549924 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.png 	     537 KB 	          0 	  (1280 x 720)
+Finish: Sat May 23 23:09:51 2020
+
+1 FILES EXTRACTED
+	
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat May 23 23:09:51 2020

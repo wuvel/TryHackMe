@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat May 23 22:50:01 2020
+Invocation: foremost Leave_me_alone.png 
+Output directory: /home/wuvel/Wuvel/CTF/TryHackMe/Lian_Yu/ftp/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: Leave_me_alone.png
+Start: Sat May 23 22:50:01 2020
+Length: 499 KB (511720 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Sat May 23 22:50:01 2020
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Sat May 23 22:50:01 2020
