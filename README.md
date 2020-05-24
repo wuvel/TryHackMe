@@ -18,5 +18,4 @@ Room Name   | Topics    | Difficulty    | Description
 [dogcat](https://tryhackme.com/room/dogcat) | php, privesc, lfi, docker | Medium | I made a website where you can look at pictures of dogs and/or cats!
 [Learn Linux](https://tryhackme.com/room/zthlinux) | linux, beginner, ZTH, new | Easy | A guided room designed to teach you the Linux basics!
 [Lian_Yu](https://tryhackme.com/room/lianyu) | challenge, gobuster, Steganography, priv-esc | Easy | A beginner level security challenge
-
-
+[Thompson](https://tryhackme.com/room/bsidesgtthompson) | security | Easy | boot2root machine for FIT and bsides guatemala CTF
