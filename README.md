@@ -19,3 +19,7 @@ Room Name   | Topics    | Difficulty    | Description
 [Learn Linux](https://tryhackme.com/room/zthlinux) | linux, beginner, ZTH, new | Easy | A guided room designed to teach you the Linux basics!
 [Lian_Yu](https://tryhackme.com/room/lianyu) | challenge, gobuster, Steganography, priv-esc | Easy | A beginner level security challenge
 [Thompson](https://tryhackme.com/room/bsidesgtthompson) | security | Easy | boot2root machine for FIT and bsides guatemala CTF
+[RP: Nmap](https://tryhackme.com/room/rpnmap) | red, primer, nmap, scanning | Easy | Part of the Red Primer series, intro to scanning.
+
+
+
