@@ -1,0 +1,33 @@
+# Nmap 7.80 scan initiated Sun May 24 19:45:16 2020 as: nmap -A -T5 -oN nmap/aggressiveScan 10.10.1.153
+Nmap scan report for 10.10.1.153
+Host is up (0.21s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 62:9a:83:64:fe:dc:25:57:6f:e2:0f:93:f8:c0:78:fc (DSA)
+|   2048 3c:ee:ce:ab:18:af:77:4b:92:0c:73:71:be:d7:bc:e2 (RSA)
+|   256 51:de:7d:65:ab:94:0a:5d:62:93:49:55:c6:ce:ff:ea (ECDSA)
+|_  256 93:1d:ae:96:79:04:96:fa:83:4b:c8:1b:03:79:28:9d (ED25519)
+80/tcp open  http    Apache httpd 2.4.7 ((Ubuntu))
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+| http-title: Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Develop...
+|_Requested resource was login.php
+Aggressive OS guesses: Linux 3.10 - 3.13 (95%), ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 3.16 (95%), Linux 3.1 (93%), Linux 3.2 (93%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (92%), Sony Android TV (Android 5.0) (92%), Android 5.0 - 6.0.1 (Linux 3.4) (92%), Android 5.1 (92%), Android 7.1.1 - 7.1.2 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 23/tcp)
+HOP RTT       ADDRESS
+1   213.41 ms 10.8.0.1
+2   214.26 ms 10.10.1.153
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun May 24 19:46:05 2020 -- 1 IP address (1 host up) scanned in 49.66 seconds
