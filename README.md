@@ -21,6 +21,5 @@ Room Name   | Topics    | Difficulty    | Description
 [Thompson](https://tryhackme.com/room/bsidesgtthompson) | security | Easy | boot2root machine for FIT and bsides guatemala CTF
 [RP: Nmap](https://tryhackme.com/room/rpnmap) | red, primer, nmap, scanning | Easy | Part of the Red Primer series, intro to scanning.
 [BP: Networking](https://tryhackme.com/room/bpnetworking) | networking, subnet, cisco, routing | Easy | Part of the Blue Primer series, learn the basics of networking
-
-
+[Simple CTF](https://tryhackme.com/room/easyctf) | security, enumeration, privesc | Easy | Beginner level ctf
 
