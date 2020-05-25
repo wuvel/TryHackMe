@@ -22,4 +22,5 @@ Room Name   | Topics    | Difficulty    | Description
 [RP: Nmap](https://tryhackme.com/room/rpnmap) | red, primer, nmap, scanning | Easy | Part of the Red Primer series, intro to scanning.
 [BP: Networking](https://tryhackme.com/room/bpnetworking) | networking, subnet, cisco, routing | Easy | Part of the Blue Primer series, learn the basics of networking
 [Simple CTF](https://tryhackme.com/room/easyctf) | security, enumeration, privesc | Easy | Beginner level ctf
+[Blue](https://tryhackme.com/room/blue) | windows, eternal blue, MS17-010, CVE-2017-0144 | Easy | Deploy & hack into a Windows machine, leveraging common misconfigurations issues.
 
