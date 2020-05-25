@@ -1,6 +1,6 @@
 # Simple CTF
 
-+ **LHow many services are running under port 1000?**
++ **How many services are running under port 1000?**
   	```
   	wuvel@wuvel:~$ nmap -A -T5 -oN nmap/initial 10.10.33.186
 
