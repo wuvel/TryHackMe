@@ -25,5 +25,5 @@ Room Name   | Topics    | Difficulty    | Description
 [Blue](https://tryhackme.com/room/blue) | windows, eternal blue, MS17-010, CVE-2017-0144 | Easy | Deploy & hack into a Windows machine, leveraging common misconfigurations issues.
 [Pickle Rick](https://tryhackme.com/room/picklerick) | ctf, dirbuster, linux | Easy | A Rick and Morty CTF. Help turn Rick back into a human!
 [RP: Metasploit](https://tryhackme.com/room/rpmetasploit) | red, primer, metasploit, msf | Easy | Part of the Red Primer series, learn to use Metasploit!
-
+[Madness](https://tryhackme.com/room/madness) | security, steganography, web, challenge | Easy | Will you be consumed by Madness?
 
