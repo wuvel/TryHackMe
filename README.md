@@ -26,4 +26,5 @@ Room Name   | Topics    | Difficulty    | Description
 [Pickle Rick](https://tryhackme.com/room/picklerick) | ctf, dirbuster, linux | Easy | A Rick and Morty CTF. Help turn Rick back into a human!
 [RP: Metasploit](https://tryhackme.com/room/rpmetasploit) | red, primer, metasploit, msf | Easy | Part of the Red Primer series, learn to use Metasploit!
 [Madness](https://tryhackme.com/room/madness) | security, steganography, web, challenge | Easy | Will you be consumed by Madness?
+[tomghosts](https://tryhackme.com/room/tomghost) | tomcat, zip, pgp, CVE-2020-1938 | Easy | Identify recent vulnerabilities to try exploit the system or read files that you should not have access to.
 
