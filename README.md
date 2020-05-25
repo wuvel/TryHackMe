@@ -23,4 +23,5 @@ Room Name   | Topics    | Difficulty    | Description
 [BP: Networking](https://tryhackme.com/room/bpnetworking) | networking, subnet, cisco, routing | Easy | Part of the Blue Primer series, learn the basics of networking
 [Simple CTF](https://tryhackme.com/room/easyctf) | security, enumeration, privesc | Easy | Beginner level ctf
 [Blue](https://tryhackme.com/room/blue) | windows, eternal blue, MS17-010, CVE-2017-0144 | Easy | Deploy & hack into a Windows machine, leveraging common misconfigurations issues.
+[Pickle Rick](https://tryhackme.com/room/picklerick) | ctf, dirbuster, linux | Easy | A Rick and Morty CTF. Help turn Rick back into a human!
 
