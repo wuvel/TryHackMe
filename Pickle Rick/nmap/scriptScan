@@ -1,0 +1,98 @@
+# Nmap 7.80 scan initiated Mon May 25 14:24:22 2020 as: nmap -sV --script vuln -oN "Wuvel/CTF/TryHackMe/Pickle Rick/nmap/scriptScan" 10.10.97.44
+Nmap scan report for 10.10.97.44
+Host is up (0.20s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.6 (Ubuntu Linux; protocol 2.0)
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+| http-cookie-flags: 
+|   /login.php: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|   /login.php: Possible admin folder
+|_  /robots.txt: Robots file
+| http-fileupload-exploiter: 
+|   
+|     Couldn't find a file-type field.
+|   
+|_    Couldn't find a file-type field.
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+| http-sql-injection: 
+|   Possible sqli for queries:
+|     http://10.10.97.44:80/assets/?C=D%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=S%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=N%3bO%3dD%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=M%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=S%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=N%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=M%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=D%3bO%3dD%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=D%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=M%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=N%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=S%3bO%3dD%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=D%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=S%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=M%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=N%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=D%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=S%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=N%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=M%3bO%3dD%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=D%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=S%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=N%3bO%3dD%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=M%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=D%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=S%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=M%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=N%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=D%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=S%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=M%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=N%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=D%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=S%3bO%3dA%27%20OR%20sqlspider
+|     http://10.10.97.44:80/assets/?C=M%3bO%3dA%27%20OR%20sqlspider
+|_    http://10.10.97.44:80/assets/?C=N%3bO%3dA%27%20OR%20sqlspider
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+| vulners: 
+|   cpe:/a:apache:http_server:2.4.18: 
+|     	CVE-2017-7679	7.5	https://vulners.com/cve/CVE-2017-7679
+|     	CVE-2017-7668	7.5	https://vulners.com/cve/CVE-2017-7668
+|     	CVE-2017-3169	7.5	https://vulners.com/cve/CVE-2017-3169
+|     	CVE-2017-3167	7.5	https://vulners.com/cve/CVE-2017-3167
+|     	CVE-2019-0211	7.2	https://vulners.com/cve/CVE-2019-0211
+|     	CVE-2018-1312	6.8	https://vulners.com/cve/CVE-2018-1312
+|     	CVE-2017-15715	6.8	https://vulners.com/cve/CVE-2017-15715
+|     	CVE-2019-10082	6.4	https://vulners.com/cve/CVE-2019-10082
+|     	CVE-2017-9788	6.4	https://vulners.com/cve/CVE-2017-9788
+|     	CVE-2019-0217	6.0	https://vulners.com/cve/CVE-2019-0217
+|     	CVE-2020-1927	5.8	https://vulners.com/cve/CVE-2020-1927
+|     	CVE-2019-10098	5.8	https://vulners.com/cve/CVE-2019-10098
+|     	CVE-2020-1934	5.0	https://vulners.com/cve/CVE-2020-1934
+|     	CVE-2019-0220	5.0	https://vulners.com/cve/CVE-2019-0220
+|     	CVE-2019-0196	5.0	https://vulners.com/cve/CVE-2019-0196
+|     	CVE-2018-17199	5.0	https://vulners.com/cve/CVE-2018-17199
+|     	CVE-2018-1333	5.0	https://vulners.com/cve/CVE-2018-1333
+|     	CVE-2017-9798	5.0	https://vulners.com/cve/CVE-2017-9798
+|     	CVE-2017-15710	5.0	https://vulners.com/cve/CVE-2017-15710
+|     	CVE-2016-8743	5.0	https://vulners.com/cve/CVE-2016-8743
+|     	CVE-2016-8740	5.0	https://vulners.com/cve/CVE-2016-8740
+|     	CVE-2016-4979	5.0	https://vulners.com/cve/CVE-2016-4979
+|     	CVE-2019-0197	4.9	https://vulners.com/cve/CVE-2019-0197
+|     	CVE-2019-10092	4.3	https://vulners.com/cve/CVE-2019-10092
+|     	CVE-2018-11763	4.3	https://vulners.com/cve/CVE-2018-11763
+|     	CVE-2016-4975	4.3	https://vulners.com/cve/CVE-2016-4975
+|     	CVE-2016-1546	4.3	https://vulners.com/cve/CVE-2016-1546
+|     	CVE-2018-1283	3.5	https://vulners.com/cve/CVE-2018-1283
+|_    	CVE-2016-8612	3.3	https://vulners.com/cve/CVE-2016-8612
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon May 25 14:30:30 2020 -- 1 IP address (1 host up) scanned in 368.34 seconds
