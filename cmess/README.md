@@ -1,4 +1,4 @@
-Enum subdomain dapet dev.blablaba 
+- Enum subdomain dapet dev.cmess.thm
 - Dapet email pass buat login (andre@cmess.thm:KPFTN_f2yxe%)
 - Upload rev shell di gila cms, revshell.
 - UQfsdCB7aAP6 -> nemu di .password dari linpeas. 
