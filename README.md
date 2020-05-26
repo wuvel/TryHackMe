@@ -27,4 +27,5 @@ Room Name   | Topics    | Difficulty    | Description
 [RP: Metasploit](https://tryhackme.com/room/rpmetasploit) | red, primer, metasploit, msf | Easy | Part of the Red Primer series, learn to use Metasploit!
 [Madness](https://tryhackme.com/room/madness) | security, steganography, web, challenge | Easy | Will you be consumed by Madness?
 [tomghosts](https://tryhackme.com/room/tomghost) | tomcat, zip, pgp, CVE-2020-1938 | Easy | Identify recent vulnerabilities to try exploit the system or read files that you should not have access to.
+[UltraTech](https://tryhackme.com/room/ultratech1) | security, pentest, enumeration, web | Medium | The basics of Penetration Testing, Enumeration, Privilege Escalation and WebApp testing
 
