@@ -1,0 +1,16 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-05-26 21:23 +07
+Warning: 10.10.140.4 giving up on port because retransmission cap hit (2).
+Nmap scan report for 10.10.140.4
+Host is up (0.21s latency).
+Not shown: 939 closed ports, 58 filtered ports
+PORT     STATE SERVICE VERSION
+21/tcp   open  ftp     vsftpd 3.0.3
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 dc:66:89:85:e7:05:c2:a5:da:7f:01:20:3a:13:fc:27 (RSA)
+|   256 c3:67:dd:26:fa:0c:56:92:f3:5b:a0:b3:8d:6d:20:ab (ECDSA)
+|_  256 11:9b:5a:d6:ff:2f:e4:49:d2:b5:17:36:0e:2f:1d:2f (ED25519)
+8081/tcp open  http    Node.js Express framework
+|_http-cors: HEAD GET POST PUT DELETE PATCH
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
