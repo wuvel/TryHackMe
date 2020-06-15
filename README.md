@@ -30,5 +30,5 @@ Room Name   | Topics    | Difficulty    | Description
 [UltraTech](https://tryhackme.com/room/ultratech1) | security, pentest, enumeration, web | Medium | The basics of Penetration Testing, Enumeration, Privilege Escalation and WebApp testing
 [CMesS](https://tryhackme.com/room/cmess) | security, cms, gila, tar | Medium | Can you root this Gila CMS box?
 [LazyAdmin](https://tryhackme.com/room/lazyadmin) | security, linux | Easy | Easy linux machine to practice your skills
-
+[Mindgames](https://tryhackme.com/room/mindgames) | security, boot2root, challenge, ctf | Hard | Just a terrible idea...
 
