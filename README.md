@@ -29,7 +29,6 @@ Room Name   | Topics    | Difficulty    | Description
 [tomghosts](https://tryhackme.com/room/tomghost) | tomcat, zip, pgp, CVE-2020-1938 | Easy | Identify recent vulnerabilities to try exploit the system or read files that you should not have access to.
 [UltraTech](https://tryhackme.com/room/ultratech1) | security, pentest, enumeration, web | Medium | The basics of Penetration Testing, Enumeration, Privilege Escalation and WebApp testing
 [CMesS](https://tryhackme.com/room/cmess) | security, cms, gila, tar | Medium | Can you root this Gila CMS box?
+[LazyAdmin](https://tryhackme.com/room/lazyadmin) | security, linux | Easy | Easy linux machine to practice your skills
 
 
-
-https://tryhackme.com/room/cmess
