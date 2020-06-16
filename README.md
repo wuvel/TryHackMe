@@ -31,4 +31,4 @@ Room Name   | Topics    | Difficulty    | Description
 [CMesS](https://tryhackme.com/room/cmess) | security, cms, gila, tar | Medium | Can you root this Gila CMS box?
 [LazyAdmin](https://tryhackme.com/room/lazyadmin) | security, linux | Easy | Easy linux machine to practice your skills
 [Mindgames](https://tryhackme.com/room/mindgames) | security, boot2root, challenge, ctf | Hard | Just a terrible idea...
-
+[Wonderland](https://tryhackme.com/room/wonderland) | security, ctf, alice in wonderland, privesc | Medium | Fall down the rabbit hole and enter wonderland.
