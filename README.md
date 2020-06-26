@@ -32,3 +32,6 @@ Room Name   | Topics    | Difficulty    | Description
 [LazyAdmin](https://tryhackme.com/room/lazyadmin) | security, linux | Easy | Easy linux machine to practice your skills
 [Mindgames](https://tryhackme.com/room/mindgames) | security, boot2root, challenge, ctf | Hard | Just a terrible idea...
 [Wonderland](https://tryhackme.com/room/wonderland) | security, ctf, alice in wonderland, privesc | Medium | Fall down the rabbit hole and enter wonderland.
+[HaskHell](https://tryhackme.com/room/haskhell) | security, linux, boot2root | Medium | Teach your CS professor that his PhD isn't in security.
+
+
